@@ -1,0 +1,33 @@
+nav.main-navbar {
+  border-radius: 3rem;
+  padding: 1.5rem 1.5rem;
+  box-shadow: 0 0 5px rgb(215, 215, 215);
+}
+nav.main-navbar .navbar-nav {
+  gap: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+nav.main-navbar .nav-link.active {
+  color: rgb(255, 88, 158);
+}
+
+.carousel .carousel-item::before {
+  content: "";
+  background-color: rgb(130, 97, 238);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  opacity: 0.8;
+}
+.carousel .carousel-caption {
+  z-index: 6;
+}
+
+body {
+  font-family: Raleway;
+}/*# sourceMappingURL=style.css.map */

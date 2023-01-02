@@ -1,0 +1,21 @@
+@use "variables" as v;
+
+.carousel {
+  .carousel-item {
+    &::before {
+      content: "";
+      background-color: v.$main-color-1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 5;
+      opacity: 0.8;
+    }
+  }
+
+  .carousel-caption {
+    z-index: 6;
+  }
+}
