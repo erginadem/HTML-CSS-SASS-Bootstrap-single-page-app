@@ -1,0 +1,33 @@
+@use "variables" as v;
+
+.btn {
+  border-radius: 3rem;
+  padding: 0.8rem 2rem;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: v.$main-color-2;
+  border-color: v.$main-color-2;
+  &:hover {
+    background-color: v.$main-color-1;
+    border-color: v.$main-color-1;
+  }
+}
+
+.btn-secondary {
+  background-color: v.$main-color-1;
+  border-color: v.$main-color-1;
+  &:hover {
+    background-color: v.$main-color-2;
+    border-color: v.$main-color-2;
+  }
+}
+
+.card {
+  border-radius: 3rem;
+  text-align: center;
+  border: 0;
+  box-shadow: 0 0 5px v.$light-shadow-color;
+  padding: 2rem 1rem;
+}

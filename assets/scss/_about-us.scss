@@ -1,0 +1,25 @@
+@use "variables" as v;
+
+.about-us {
+  h3 {
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  p {
+    color: v.$color-6;
+    letter-spacing: 0.1rem;
+  }
+  .row {
+    &:first-child {
+      padding-bottom: 10rem;
+      border-bottom: 1px solid v.$light-shadow-color;
+    }
+    &:last-child {
+      padding-top: 10rem;
+    }
+  }
+  .icon {
+    font-size: 15rem;
+    color: v.$main-color-1;
+  }
+}
