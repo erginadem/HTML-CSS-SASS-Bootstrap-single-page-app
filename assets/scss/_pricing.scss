@@ -1,0 +1,58 @@
+@use "variables" as v;
+
+.pricing-plan {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  background-color: v.$light-shadow-color;
+
+  .section-header {
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 3rem;
+
+    h3 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      line-height: 2rem;
+
+      &:last-child {
+        text-decoration: line-through;
+      }
+    }
+  }
+
+  .col {
+    &:nth-child(even) {
+      .price {
+        background-color: v.$main-color-2;
+      }
+    }
+  }
+
+  .price {
+    background-color: v.$color-4;
+    border-radius: 20px;
+    color: v.$color-5;
+    padding: 1.5rem 0;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+
+    button {
+      align-self: center;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+@use "variables" as v;
+
+.work-process {
+  margin-top: 5rem;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  background-image: url("../img/banner-01.jpg");
+
+  &::after {
+    content: "";
+    background-color: v.$color-4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  .section-header {
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 3rem;
+    color: v.$light-shadow-color;
+  }
+
+  h3 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .card {
+    box-shadow: 0.8rem 0.8rem 0 v.$color-7;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  i {
+    font-size: 3rem;
+    color: v.$main-color-1;
+    margin-bottom: 1rem;
+  }
+}

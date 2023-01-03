@@ -1,0 +1,32 @@
+@use "variables" as v;
+
+.testimonals {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+
+  .section-header {
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 3rem;
+
+    h3 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      color: v.$color-6;
+    }
+  }
+
+  i {
+    font-size: 3rem;
+    color: v.$main-color-1;
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    color: v.$main-color-2;
+  }
+}

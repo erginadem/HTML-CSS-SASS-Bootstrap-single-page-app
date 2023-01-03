@@ -15,7 +15,7 @@ nav.main-navbar .nav-link.active {
 
 .carousel .carousel-item::before {
   content: "";
-  background-color: rgba(130, 97, 238, 0.526);
+  background-color: rgba(130, 97, 238, 0.73);
   position: absolute;
   top: 0;
   left: 0;
@@ -67,6 +67,8 @@ nav.main-navbar .nav-link.active {
   border: 0;
   box-shadow: 0 0 5px rgb(233, 232, 232);
   padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: rgb(116, 110, 110);
 }
 
 .highlights {
@@ -113,6 +115,123 @@ nav.main-navbar .nav-link.active {
 .about-us .icon {
   font-size: 15rem;
   color: rgb(130, 97, 238);
+}
+
+.work-process {
+  margin-top: 5rem;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  background-image: url("../img/banner-01.jpg");
+}
+.work-process::after {
+  content: "";
+  background-color: rgba(130, 97, 238, 0.73);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.work-process .container {
+  position: relative;
+  z-index: 2;
+}
+.work-process .section-header {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 3rem;
+  color: rgb(233, 232, 232);
+}
+.work-process h3 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.work-process .card {
+  box-shadow: 0.8rem 0.8rem 0 rgba(179, 160, 241, 0.73);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.work-process .card:hover {
+  transform: scale(1.1);
+}
+.work-process i {
+  font-size: 3rem;
+  color: rgb(130, 97, 238);
+  margin-bottom: 1rem;
+}
+
+.testimonals {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.testimonals .section-header {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 3rem;
+}
+.testimonals .section-header h3 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.testimonals .section-header p {
+  color: rgb(116, 110, 110);
+}
+.testimonals i {
+  font-size: 3rem;
+  color: rgb(130, 97, 238);
+  margin-bottom: 1rem;
+}
+.testimonals .title {
+  color: rgb(255, 88, 158);
+}
+
+.pricing-plan {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  background-color: rgb(233, 232, 232);
+}
+.pricing-plan .section-header {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 3rem;
+}
+.pricing-plan .section-header h3 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.pricing-plan ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.pricing-plan ul li {
+  line-height: 2rem;
+}
+.pricing-plan ul li:last-child {
+  text-decoration: line-through;
+}
+.pricing-plan .col:nth-child(even) .price {
+  background-color: rgb(255, 88, 158);
+}
+.pricing-plan .price {
+  background-color: rgba(130, 97, 238, 0.73);
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  padding: 1.5rem 0;
+}
+.pricing-plan .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.pricing-plan .card-body button {
+  align-self: center;
 }
 
 body {
