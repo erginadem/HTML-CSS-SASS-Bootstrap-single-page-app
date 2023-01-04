@@ -1,0 +1,38 @@
+@use "variables" as v;
+
+.statistics {
+  position: relative;
+  background-image: url("../img/banner-02.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+
+  &::before {
+    content: "";
+    background-color: v.$color-4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .container {
+    color: v.$color-5;
+    position: relative;
+    z-index: 2;
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}

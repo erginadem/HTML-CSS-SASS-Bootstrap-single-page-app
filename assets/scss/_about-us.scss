@@ -1,6 +1,7 @@
 @use "variables" as v;
 
 .about-us {
+  padding-top: 8rem;
   h3 {
     margin-bottom: 1.5rem;
     letter-spacing: 0.1rem;
@@ -21,5 +22,11 @@
   .icon {
     font-size: 15rem;
     color: v.$main-color-1;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us {
+    text-align: center;
   }
 }

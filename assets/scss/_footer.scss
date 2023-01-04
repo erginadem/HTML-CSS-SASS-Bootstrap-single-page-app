@@ -1,0 +1,41 @@
+@use "variables" as v;
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: v.$main-color-1;
+  color: v.$color-5;
+  text-align: center;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    li {
+      i {
+        font-size: 1.3rem;
+      }
+
+      a {
+        text-decoration: none;
+        background-color: v.$color-5;
+        color: v.$main-color-1;
+        display: inline-block;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 1.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.4s;
+
+        &:hover {
+          transform: scale(1.2) rotate(360deg);
+        }
+      }
+    }
+  }
+}

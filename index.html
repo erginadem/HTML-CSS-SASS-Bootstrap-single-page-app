@@ -24,7 +24,7 @@
   </head>
   <body>
     <!-- ************ NAVBAR ******************** -->
-    <section class="container fixed-top mt-3">
+    <header id="navbar" class="container fixed-top mt-3">
       <nav class="navbar navbar-expand-xl bg-light-subtle main-navbar">
         <div class="container-fluid">
           <a
@@ -49,7 +49,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home"
+                <a class="nav-link active" aria-current="page" href="#carouselExample"
                   >Home</a
                 >
               </li>
@@ -60,10 +60,10 @@
                 <a class="nav-link" href="#work">Work Process</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#testimonials">Testimonials</a>
+                <a class="nav-link" href="#testimonals">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pricingtables">Pricing Tables</a>
+                <a class="nav-link" href="#pricing">Pricing Tables</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#blog">Blog</a>
@@ -75,7 +75,7 @@
           </div>
         </div>
       </nav>
-    </section>
+    </header>
 
     <!-- *********** CAROUSEL SLIDER ************** -->
     <section
@@ -119,7 +119,7 @@
     </section>
 
     <!-- *********** HIGHLIGHTS  ************** -->
-    <section class="highlights">
+    <section id="highlights" class="highlights">
       <div class="container">
         <div class="row g-5">
           <div class="col-md-4">
@@ -163,7 +163,7 @@
     </section>
 
     <!-- *********** ABOUT US  ************** -->
-    <section class="container about-us">
+    <section id="about" class="container about-us">
       <div class="row">
         <div class="col-md-6">
           <i class="fa-solid fa-comments icon"></i>
@@ -178,7 +178,7 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6 order-1 order-md-2 text-end">
+        <div class="col-md-6 order-1 order-md-2 text-center text-md-right">
           <i class="fa-solid fa-handshake-angle icon"></i>
         </div>
         <div class="col-md-6 order-2 order-md-1">
@@ -192,7 +192,7 @@
     </section>
 
     <!-- *********** WORK PROCESS  ************** -->
-    <section class="container-fluid work-process">
+    <section id="work" class="container-fluid work-process">
       <div class="container">
         <div class="section-header">
           <h3>Work Process</h3>
@@ -269,7 +269,7 @@
     </section>
 
     <!-- *********** TESTIMONALS  ************** -->
-    <section class="container-fluid testimonals">
+    <section id="testimonals" class="container-fluid testimonals">
       <div class="container">
         <div class="section-header">
           <h3>What do they say?</h3>
@@ -279,7 +279,7 @@
             adipisicing elit. Exercitationem, dolorem?
           </p>
         </div>
-        <div class="row">
+        <div class="row g-5 row-cols-1 row-cols-md-3">
           <div class="col">
             <div class="card">
               <div class="card-body">
@@ -330,7 +330,7 @@
     </section>
 
     <!-- *********** PRICING  ************** -->
-    <section class="container-fluid pricing-plan">
+    <section id="pricing" class="container-fluid pricing-plan">
 
       <div class="container">
         <div class="section-header">
@@ -342,7 +342,7 @@
           </p>
         </div>
 
-        <div class="row">
+        <div class="row g-5 row-cols-1 row-cols-sm-2 row-cols-md-3">
           <div class="col">
             <div class="card">
               <div class="card-body">
@@ -417,6 +417,169 @@
         </div>
       </div>
     </section>
+
+
+    <!-- *********** STATISTIC  ************** -->
+    <section id="statistics" class="container-fluid statistics">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-md">
+            <h4>126</h4>
+            <span>Projects</span>
+          </div>
+          <div class="col-4 col-md">
+            <span><img src="assets/img/circle.png" class="img-fluid" alt="icon">
+          </div>
+          <div class="col-4 col-md">
+            <h4>86</h4>
+            <span>Projects</span>
+          </div>
+  
+          <div class="col col-md align-self-start d-none d-md-block">
+            <span><img src="assets/img/circle.png" class="img-fluid" alt="icon">          
+          </div>
+          
+          <div class="col-4 col-md">
+            <h4>234</h4>
+            <span>Projects</span>
+          </div>
+          <div class="col-4 col-md">
+            <span><img src="assets/img/circle.png"class="img-fluid"  alt="icon">
+            </div>
+          <div class="col-4 col-md">
+            <h4>234</h4>
+            <span>Projects</span>
+          </div>
+
+          </div>
+        </div>
+    </section>
+
+     <!-- *********** BLOG ENTRIES  ************** -->
+     <section id="blog" class="container blog-entries">
+      <div class="container">
+        <div class="section-header">
+          <h3>Blog Entries</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam perferendis iste omnis aliquam expedita maxime.</p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-3 g-5">
+
+
+          <div class="col">
+            
+                <img src="assets/img/blog-item-01.png" class="img-fluid" alt="banner">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ducimus doloribus sed quis non accusantium, laudantium esse sit molestiae sunt.</p>
+              <button class="btn btn-secondary">Read More</button>
+             
+          </div>
+        
+
+        <div class="col">
+          
+              <img src="assets/img/blog-item-02.png" class="img-fluid" alt="banner">
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ducimus doloribus sed quis non accusantium, laudantium esse sit molestiae sunt.</p>
+            <button class="btn btn-secondary">Read More</button>
+           
+        </div>
+
+
+        <div class="col">
+          
+              <img src="assets/img/blog-item-03.png" class="img-fluid" alt="banner">
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ducimus doloribus sed quis non accusantium, laudantium esse sit molestiae sunt.</p>
+            <button class="btn btn-secondary">Read More</button>
+            </div>
+         
+
+      </div>
+      </div>
+    </section>
+
+     <!-- *********** TALK TO US  ************** -->
+
+     <section id="contact" class="container-fluid contact">
+      <div class="container">
+        <div class="section-header">
+          <h3>Talk To Us</h3>
+          <p>
+            Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis
+            arcu elementum, quis congue risus volutpat.
+          </p>
+        </div>
+        <div class="row g-3">
+          <div class="col-lg-4">
+            <div class="keep-in-touch">
+              <h3>Keep in touch</h3>
+            <p>
+              110-220 Quisque diam odio, maximus ac consectetur eu, 10260 auctor
+              non lorem
+            </p>
+            <p>
+              You are NOT allowed to re-distribute Softy Pinko template on any
+              template collection websites. Thank you.
+            </p>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="txtName"
+                  placeholder="Full name"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="txtEmail"
+                  placeholder="Email address"
+                />
+              </div>
+              <div class="col-12">
+                
+                <textarea 
+                type="text"
+                class="form-control"
+                id="txtMessage"
+                placeholder="Your message"
+                cols="30" 
+                rows="10">
+              </textarea>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+     <!-- *********** FOOTER  ************** -->
+     <footer class="container-fluid footer">
+      <div class="container">
+        <ul class="social">
+          <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></a></i></li>
+          <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+        <hr>
+        <div class="copyright">
+          &copy;2023 - Copyright by Softy Pinko
+        </div>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js
     "></script>
   </body>
