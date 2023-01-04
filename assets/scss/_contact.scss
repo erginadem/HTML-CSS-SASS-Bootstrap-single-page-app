@@ -15,9 +15,22 @@
       }
 
       input {
+        border-radius: 20px;
+        padding: 0.8rem 1.2rem;
+        font-size: 0.8rem;
+
+        &:focus {
+          box-shadow: v.$main-color-2;
+        }
       }
 
       textarea {
+        border-radius: 20px;
+        padding: 0.8rem 1.2rem;
+        font-size: 0.8rem;
+        &:focus {
+          box-shadow: v.$main-color-2;
+        }
       }
     }
   }

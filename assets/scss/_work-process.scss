@@ -10,7 +10,8 @@
 
   &::after {
     content: "";
-    background-color: v.$color-4;
+    background-image: linear-gradient(v.$main-color-1, v.$main-color-2);
+    opacity: 0.8;
     position: absolute;
     top: 0;
     left: 0;

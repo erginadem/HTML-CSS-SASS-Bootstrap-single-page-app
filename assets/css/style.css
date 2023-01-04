@@ -15,7 +15,8 @@ nav.main-navbar .nav-link.active {
 
 .carousel .carousel-item::before {
   content: "";
-  background-color: rgba(130, 97, 238, 0.73);
+  background-image: linear-gradient(rgb(255, 88, 158), rgb(130, 97, 238));
+  opacity: 0.7;
   position: absolute;
   top: 0;
   left: 0;
@@ -126,7 +127,7 @@ nav.main-navbar .nav-link.active {
 }
 .about-us .icon {
   font-size: 15rem;
-  color: rgb(130, 97, 238);
+  color: rgb(255, 88, 158);
 }
 
 @media (max-width: 767px) {
@@ -144,7 +145,8 @@ nav.main-navbar .nav-link.active {
 }
 .work-process::after {
   content: "";
-  background-color: rgba(130, 97, 238, 0.73);
+  background-image: linear-gradient(rgb(130, 97, 238), rgb(255, 88, 158));
+  opacity: 0.8;
   position: absolute;
   top: 0;
   left: 0;
@@ -317,6 +319,22 @@ nav.main-navbar .nav-link.active {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.contact .container .row input {
+  border-radius: 20px;
+  padding: 0.8rem 1.2rem;
+  font-size: 0.8rem;
+}
+.contact .container .row input:focus {
+  box-shadow: rgb(255, 88, 158);
+}
+.contact .container .row textarea {
+  border-radius: 20px;
+  padding: 0.8rem 1.2rem;
+  font-size: 0.8rem;
+}
+.contact .container .row textarea:focus {
+  box-shadow: rgb(255, 88, 158);
 }
 .contact .section-header {
   text-align: center;
